@@ -1,0 +1,91 @@
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align:baseline;
+}
+
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #424242;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  z-index: 0;
+}
+h1 {
+  position: relative;
+  z-index: 200;
+
+}
+#override h1 {
+  font-size: 60px;
+  color: white;
+  font-family:'Varela',sans-serif;
+}
+p {
+  position: relative;
+  font-size: 16px;
+  color: white;
+  z-index: 200;
+}
+.btn {
+  color: white;
+  z-index: 200;
+}
+
+.lnk:hover {
+  color: white;
+  z-index: 200;
+}
+
+.git:hover {
+  color: white;
+  z-index: 200;
+}
+
+.res:hover {
+  color: white;
+  z-index: 200;
+}
+
+.ema:hover {
+  color: white;
+  z-index: 200;
+}
+
+img {
+  position: relative;
+   padding:0px;
+   border:8px solid white;
+   z-index: 200;
+}
+#override img {
+  border: 8px solid white;
+}
+.title {
+  /*font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;*/
+  /*font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;*/
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+
+  color:black;
+}
+
+.hvr-grow {
+display: inline-block;
+vertical-align: middle;
+transform: translateZ(0);
+color:white;
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+backface-visibility: hidden;
+-moz-osx-font-smoothing: grayscale;
+transition-duration: 0.3s;
+transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.3);
+}
