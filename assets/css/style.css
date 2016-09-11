@@ -2,12 +2,83 @@ body {
 	font-family: 'Raleway', 'Roboto', sans-serif;
 }
 
+h1 {
+	margin-top: 150px;
+	font-weight: 600;
+	font-size: 4em;
+	line-height: 110%;
+	color: white;
+}
+
+h2 {
+	margin-top: 30px;
+	font-weight: 600;
+	font-size: 3em;
+	line-height: 110%;
+	color: white;
+}
+
+a {
+	color: #66CCFF;
+}
+
+figcaption {
+	color: white;
+	font-weight: normal;
+}
+
 .page-header {
 	background-position: center;
   	background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-size: cover;
   	position: relative;
+}
+
+.row {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.header-subtitle {
+	margin-bottom: 50px;
+	color: white;
+	font-size: 2.5em;
+}
+
+.header-divider {
+	width: 50%;
+	background-color: white;
+	height: 4px;
+	border: none;
+}
+
+.long-header-divider {
+	background-color: white;
+	height: 4px;
+	border: none;
+}
+
+/* Hover, by Ian Lunn */
+
+.hvr-bounce-in {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+	transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
 #section-intro {
@@ -30,50 +101,6 @@ body {
 #section-contact {
 	background-color: #F25F5C;
 }
-
-.row {
-	margin-left: 15%;
-	margin-right: 15%;
-}
-
-h1 {
-	margin-top: 150px;
-	font-weight: 600;
-	font-size: 4em;
-	color: white;
-}
-
-h2 {
-	margin-top: 30px;
-	font-weight: 600;
-	font-size: 3em;
-	color: white;
-}
-
-figcaption {
-	color: white;
-	font-weight: normal;
-}
-
-.header-subtitle {
-	margin-bottom: 50px;
-	color: white;
-	font-size: 2.5em;
-}
-
-.header-divider {
-	width: 50%;
-	background-color: white;
-	height: 4px;
-	border: none;
-}
-
-.long-header-divider {
-	background-color: white;
-	height: 4px;
-	border: none;
-}
-
 
 /* Navigation bar */
 
