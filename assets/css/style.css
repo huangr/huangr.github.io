@@ -1,0 +1,110 @@
+body {
+	font-family: 'Raleway', 'Roboto', sans-serif;
+}
+
+.page-header {
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	position: relative;
+}
+
+#section-intro {
+	background-image: url('../img/background.jpg');
+	height: 100vh;
+	opacity: 20;
+	min-height: 480px;
+
+	-webkit-filter: grayscale(70%);
+}
+
+#section-bio {
+	background-color: #F25F5C;
+}
+
+#section-projects {
+	background-color: #F25F5C;
+}
+
+#section-contact {
+	background-color: #F25F5C;
+}
+
+.row {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+h1 {
+	margin-top: 150px;
+	font-weight: 600;
+	font-size: 4em;
+	color: white;
+}
+
+h2 {
+	margin-top: 30px;
+	font-weight: 600;
+	font-size: 3em;
+	color: white;
+}
+
+figcaption {
+	color: white;
+	font-weight: normal;
+}
+
+.header-subtitle {
+	margin-bottom: 50px;
+	color: white;
+	font-size: 2.5em;
+}
+
+.header-divider {
+	width: 50%;
+	background-color: white;
+	height: 4px;
+	border: none;
+}
+
+.long-header-divider {
+	background-color: white;
+	height: 4px;
+	border: none;
+}
+
+
+/* Navigation bar */
+
+#navbar {
+	background-color: transparent !important;
+	border-color: rgba(0,0,0,0);
+	box-shadow: none;
+	
+	webkit-transition: background-color  1s;
+    -moz-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    transition: background-color 1s;
+}
+
+#navbar-color {
+	background-color: #F7B733 !important;
+	border-color: rgba(0,0,0,0);
+	box-shadow: none;
+	
+	webkit-transition: background-color  1s;
+    -moz-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    transition: background-color 1s;
+}
+
+#navbar.opaque {
+	background-color: white !important;
+	border-bottom: solid #eceff1  1px;
+}
+
+#navbar-container {
+	position: absolute;
+	z-index: 150;
+}
