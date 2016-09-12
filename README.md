@@ -1,2 +1,1 @@
-# huangr.github.io
-Personal website.
+# homepage-rickh
