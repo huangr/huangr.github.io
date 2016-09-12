@@ -22,6 +22,11 @@ a {
 	color: #66CCFF;
 }
 
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
 figcaption {
 	color: white;
 	font-weight: normal;
@@ -100,6 +105,28 @@ figcaption {
 
 #section-contact {
 	background-color: #F25F5C;
+}
+
+#par-info {
+	font-size: 20px;
+	font-weight: normal;
+}
+
+#caption {
+	font-weight: normal;
+}
+
+#picture-grid {
+	width: 75%;
+	margin-left: 15%;
+}
+
+#bottom-space {
+	margin-bottom: 150px;
+}
+
+#white {
+	color: white;
 }
 
 /* Navigation bar */
