@@ -92,7 +92,7 @@ figcaption {
 	opacity: 20;
 	min-height: 480px;
 
-	-webkit-filter: grayscale(70%);
+	-webkit-filter: grayscale(80%);
 }
 
 #section-bio {
