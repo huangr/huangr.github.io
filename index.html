@@ -13,11 +13,16 @@
         <!-- stylesheets -->
         <!-- import materializecss, outside template resource -->
         <link type="text/css" rel="stylesheet" href="assets/materialize/css/materialize.min.css"/>
+
+        <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
+
+        <script src="https://use.fontawesome.com/44cdf8b9a5.js"></script>
         
         <link rel="stylesheet" href="./assets/css/style.css">
 
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,600,300,700' rel='stylesheet' type='text/css'>
 
+        <script src="./assets/js/index.js"></script>
     </head>
 
 <body>
@@ -26,12 +31,11 @@
         <nav id="navbar" class="navbar-collapse navbar-mobile">
             <div class="nav-wrapper">
 
-                <ul id="nav-mobile" class="right">
-                    <li class="hide-on-small-and-down" id="nav-intro"><a data-scroll href="./index.html" class="nav-text">Home</a></li>
-                    <li class="hide-on-small-and-down" id="nav-about"><a data-scroll href="./bio.html" class="nav-text">About</a></li>
-                    <li class="hide-on-small-and-down" id="nav-projects"><a data-scroll href="./projects.html" class="nav-text">Projects</a></li>
-                    <li class="hide-on-small-and-down" id="nav-contact"><a data-scroll href="./contact.html" class="nav-text">Contact</a></li>
-                    <li class="hide-on-small-and-down" id="nav-resume"><a data-scroll href="./assets/files/resume.pdf" class="nav-text">Resume</a></li>
+                <ul id="nav-mobile" class="right" style="display:inline">
+                    <li class="hide-on-small-and-down" id="nav-about"><a data-scroll href="#section-bio" class="nav-text">About</a></li>
+                    <li class="hide-on-small-and-down" id="nav-experience"><a data-scroll href="#section-exp" class="nav-text">Experience</a></li>
+<!--                     <li class="hide-on-small-and-down" id="nav-projects"><a data-scroll href="./projects.html" class="nav-text">Projects</a></li> -->
+                    <li class="hide-on-small-and-down" id="nav-contact"><a data-scroll href="#section-contact" class="nav-text">Contact</a></li>
                 </ul>
             
             </div>
@@ -45,10 +49,218 @@
         <div class="row">
             <div class="col m2">&nbsp;</div>
             <div class="col s12 m8 center-align">
-                <h1 class="animated slideInDown">Rick Huang</h1>
+                <h1 class="animated slideInDown header-front">Rick Huang</h1>
                 <hr class="header-divider" />
-                <div class="header-subtitle animated slideInDown">Code, math, and dreams.</div>
+                <div class="header-subtitle animated slideInDown">MIT '18, 6-3.</div>
             </div>
         </div>
     </div>
+
+    <div id="section-bio" nav-link="#about" style="height: 100%">
+        <br>
+        <div class="row">
+            <h1 class="animated slideInDown" style="color:black"><b>Hi, I'm Rick.</b></h1>
+            <hr class="long-header-divider" style="color:black"/>
+            <div id="text-container">
+                <p id="blurb-intro" id="text-container">Hello! I'm a B.S. graduate from the <b>Massachusetts Institute of Technology</b>, winter of '18, majoring in <b>Computer Science</b>, minoring in <b>Mathematics</b>, and concentrating in <b>Music</b>. If you're familiar with MIT course numbers, this corresponds to a major in <b>6-3</b>, minor in <b>18</b>, and concentration in <b>21M</b>.</p>
+                <p id="detail-intro" id="text-container">As of now, I've dabbled as a software engineer, trader, researcher, and teacher. I have extensive experience through industrial jobs, personal projects, and leadership.</p>
+                <p id="hobbies" id="text-container">I hope I can convince you that I don't just work though! In my spare time, I enjoy playing <b>No Limit Texas Hold'em</b>, and during long breaks, I place high value on <b>adventuring</b>. I've traveled to many foreign countries, and I most recently did a solo trip in Southeast Asia in winter '17.</p>
+                <p id="interests" id="text-container">My passions lie within the intersection of computer science, engineering, and statistics. Feel free to contact me for just about anything!</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="section-exp" nav-link="#experience" class="experiences-back">
+        <br>
+        <div class="row">
+            <h1 class="animated slideInDown" style="color:black"><b>Experiences</b></h1>
+            <hr class="long-header-divider" style="color:black"/>
+            <h2 style="color:black"<b></b></h2>
+            <p id="blurb-intro" id="text-container">I have extensive industry experience in both software and finance. The following describes my professional experience throughout my entire career.</p>
+        </div>
+        <div style="float:left">
+            <div class="row subrow">
+                <div class="col m8 left-align">
+                    <br>
+                    <h5><b>Rubrik Inc.</b></h5>
+                    <hr class="small-header-divider" style="color:black"/>
+                    <p><b>Software Engineer Intern | Aug 2018 - Oct 2018</b></p>
+                    <ul>
+                        Built an set of libraries written in <b>Scala</b> to query <b>Windows Active Directory</b> for visualizing relationships between system users and groups
+                    </ul>
+                    <ul>
+                        Built a microservice written in <b>Scala</b> to submit queries to the <b>LDAP server</b> and serialize results within a Rubrik cluster to cloud storage
+                    </ul>
+                    <ul>
+                        Exposed an interface written in <b>Go</b> interacting with <b>gRPC</b> for resolving IDs with specific objects within a system hierarchy
+                    </ul>
+                </div>
+                <div class="col m1 center-align"></div>
+                <div class="col m3 center-align">
+                    <table class="center-align">
+                        <tr>
+                            <th>
+                                <img src="./assets/img/rubrik.png" alt="rubrik" class="valign">
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="first-subsec">
+            <div class="row subrow">
+                <div class="col m3 center-align">
+                    <table class="center-align">
+                        <tr>
+                            <th>
+                                <img src="./assets/img/twosigma.png" alt="twosigma" class="valign">
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col m1 center-align"></div>
+                <div class="col m8 left-align">
+                    <br>
+                    <h5><b>Two Sigma Investments, LLC</b></h5>
+                    <hr class="small-header-divider" style="color:black"/>
+                    <p><b>Modeling Engineer Intern | May 2018 - Aug 2018</b></p>
+                    <ul>
+                        Built an anomaly detector written in <b>Python</b> for forecast data producing daily email reports on irregular behaviors
+                    </ul>
+                    <ul>
+                        Explored both open source and research-based <b>statistical techniques</b> for detecting outliers in multivariate time series with unknown prior distributions
+                    </ul>
+                    <ul>
+                        Designed and drove production of entire scope of project from client requirements to solution as a <b>project lead</b>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="second-subsec">
+            <div class="row subrow">
+                <div class="col m8 left-align">
+                    <br>
+                    <h5><b>Two Sigma Investments, LLC</b></h5>
+                    <hr class="small-header-divider" style="color:black"/>
+                    <p><b>Trading Engineer Intern | Jun 2017 - Aug 2017</b></p>
+                    <ul>
+                        Ported <b>connection lines</b> between modelers and trading exchanges written in <b>C</b> to a more modularized framework
+                    </ul>
+                    <ul>
+                        Implemented and deployed new connections to trading exchanges to production, complete with client connection validation
+                    </ul>
+                    <ul>
+                        Improved robustness of existing session handler to better tolerate connection behavior of exchanges based on <b>TCP</b>
+                    </ul>
+                </div>
+                <div class="col m1 center-align"></div>
+                <div class="col m3 center-align">
+                    <table class="center-align">
+                        <tr>
+                            <th>
+                                <img src="./assets/img/twosigma.png" alt="twosigma" class="valign">
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="first-subsec">
+            <div class="row subrow">
+                <div class="col m3 center-align">
+                    <table class="center-align">
+                        <tr>
+                            <th>
+                                <img src="./assets/img/fiverings.jpg" alt="fiverings" class="valign">
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col m1 center-align"></div>
+                <div class="col m8 left-align">
+                    <br>
+                    <h5><b>Five Rings Capital, LLC</b></h5>
+                    <hr class="small-header-divider" style="color:black"/>
+                    <p><b>Trader Intern | Jan 2017 - Feb 2017</b></p>
+                    <ul>
+                        Used <b>Python</b> to investigate trends, generated statistical analytics, and developed potential strategies for relevant financial instruments
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="second-subsec">
+            <div class="row subrow">
+                <div class="col m8 left-align">
+                    <br>
+                    <h5><b>Bloomberg LP</b></h5>
+                    <hr class="small-header-divider" style="color:black"/>
+                    <p><b>Software Engineer Intern | Jun 2016 - Aug 2016</b></p>
+                    <ul>
+                        Designed a <b>C++</b> backend system with custom graph data structures to track and calculate historical buy and sell trades
+                    </ul>
+                    <ul>
+                        Constructed web-based user interface for client-based profit and loss computation as inputs for consumption by backend system
+                    </ul>
+                </div>
+                <div class="col m1 center-align"></div>
+                <div class="col m3 center-align">
+                    <table class="center-align">
+                        <tr>
+                            <th>
+                                <img src="./assets/img/bloomberg.png" alt="bloomberg" class="valign">
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="first-subsec">
+            <div class="row subrow">
+                <div class="col m3 center-align">
+                    <table class="center-align">
+                        <tr>
+                            <th>
+                                <img src="./assets/img/ca.jpeg" alt="cortina" class="valign">
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col m1 center-align"></div>
+                <div class="col m8 left-align">
+                    <br>
+                    <h5><b>Cortina Access Inc.</b></h5>
+                    <hr class="small-header-divider" style="color:black"/>
+                    <p><b>Software Engineer Intern | Jan 2016 - Feb 2016</b></p>
+                    <ul>
+                        Tested open source improvements to deep packet inspection and machine learning protocols for <b>P2P packet</b> identification
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="row">
+            <h1 style="color:black">&nbsp; <br/>Contact me!</h1>
+            <hr class="long-header-divider"  id="section-contact" nav-link="#section-contact" style="color:black"/>
+            <p id="blurb-intro" id="text-container">Thanks for taking the time to visit my website! If anything I've provided here seems even remotely interesting, I'd love to get in touch.</p>
+        </div>
+        <div class="row">
+            <div class="col m3 center-align">
+                <a href="https://github.com/huangr" target="_blank"><i class="fa fa-github fa-4x animated fadeIn hvr-bounce-in" style="color:black"></i></a>
+            </div>
+            <div class="col m3 center-align">
+                <a href="https://www.linkedin.com/in/huangr" target="_blank"><i class="fa fa-linkedin fa-4x animated fadeIn hvr-bounce-in" style="color:black"></i></a>
+            </div>
+            <div class="col m3 center-align">
+                <a href="https://www.quora.com/profile/Rick-Huang-1" target="_blank"><span class="fa fa-quora fa-4x animated fadeIn hvr-bounce-in" style="color:black"></span>
+                </a>
+            </div>
+            <div class="col m3 center-align">
+                <a href="mailto:rickh[at]mit.edu" target="_blank"><i class="fa fa-envelope-o fa-4x animated fadeIn hvr-bounce-in" style="color:black"></i></a>
+            </div>
+        </div>
+    </div>
+
+
 </body>
